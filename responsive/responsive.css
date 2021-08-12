@@ -1,0 +1,213 @@
+@media all and (max-width: 1050px){
+  .search {
+    width: 170px;
+    height: 35px;
+  }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .menu li a {
+    font-size: 10px;
+  }
+
+  .search {
+    width: 50px;
+    height: 20px;
+  }
+
+  .search ::placeholder {
+    font-size: 12px;
+  }
+
+  .top-wrapper {
+    padding: 0%;
+    max-width: 100%;
+    height: 500px;
+  }
+
+  .container-left{
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .container-right{
+    z-index: -5;
+    max-width: 100%;
+    position: absolute;
+  }
+
+  .container-right img{
+    opacity: 50%;
+  }
+
+  .message_wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 820px;
+}
+
+.img {
+    width: 100%;
+    align-items: center;
+    margin: 25px 100px 5px 5px;
+}
+
+.message-1 {
+    width: 80%;
+    background-color: #d5c4b0;
+    margin: 10px auto 0px 100px;
+    box-shadow: 5px 5px #c2b9b0;
+}
+
+.message-2{ 
+    width: 80%;
+    background-color: #d5c4b0;
+    margin: 20px auto 50px 100px;
+    box-shadow: 5px 5px #c2b9b0;
+}
+
+.quote1 {
+    width: 100%;
+}
+
+.quote2 {
+    width: 100%;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.lesson {
+  width: 50%;
+}
+
+.lesson-wrapper{
+  height: 1100px;
+}
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .menu{
+    display: none;
+  }
+
+  .search{
+    display: none;
+  }
+    
+  .icon {
+    opacity: 1;
+  }
+
+  .top-wrapper {
+    max-width: 100%;
+    padding: 0%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    height: 400px;
+  }
+
+  .container-left{
+    margin-top: auto;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .container-left h1{
+    margin-top: 6%;
+    font-size: 40px;
+  }
+
+  .container-left p{
+    font-size: 12px;
+  }
+
+  .container-right{
+    margin-top: auto;
+    z-index: -5;
+    max-width: 100%;
+    position: absolute;
+  }
+
+  .container-right img{
+    opacity: 50%;
+  }
+
+  .btn{
+    margin-top:20px;
+    margin-right:10px;
+    margin-left:10px;
+    padding: 5px;
+    width: 90%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .img {
+    width: 100%;
+    margin: 25px 50px 10px 10px;
+}
+
+.message_wrapper {
+  width: 100%;
+  height: 750px;
+}
+
+.message-1 {
+    width: 80%;
+    padding: 10px;
+    background-color: #d5c4b0;
+    margin: 10px auto 0px 75px;
+    box-shadow: 5px 5px #c2b9b0;
+}
+
+.message-2{ 
+    width: 80%;
+    padding: 10px;
+    background-color: #d5c4b0;
+    margin: 20px auto 50px 50px;
+    box-shadow: 5px 5px #c2b9b0;
+}
+
+.quote1 {
+    width: 100%;
+}
+
+.quote2 {
+    width: 100%;
+}
+  
+  footer{
+        height:400px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+  .form-list input{
+      width:50%;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson-wrapper{
+    height: 1700px;
+  }
+}
